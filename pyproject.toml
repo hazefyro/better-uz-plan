@@ -1,0 +1,9 @@
+[project]
+name = "better-uz-plan"
+version = "0.1.0"
+description = "Monorepo for Better UZ Plan applications"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["apps/*"]
